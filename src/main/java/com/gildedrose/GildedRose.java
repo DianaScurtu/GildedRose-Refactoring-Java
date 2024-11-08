@@ -1,7 +1,13 @@
 package com.gildedrose;
 
+import java.util.Collections;
+import java.util.List;
+
 class GildedRose {
-    Item[] items;
+    List<Item> items;
+    static final String AGED_BRIE = "Aged Brie";
+    static final String BACKSTAGE_PASS = "Backstage passes to a TAFKAL80ETC concert";
+    static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
 
     public GildedRose(Item[] items) {
         this.items = items;
